@@ -18,8 +18,8 @@ pakku -S multilib/lib32-gnutls multilib/lib32-libcurl-gnutls
 **请不要使用winetricks中的riched20或30。它们的版本过低，DingTalk会崩溃。**
 
 ```bash
-cp res/
-cp res/wqy-microhei.ttc ~/.wine/drive_c/windows/Fonts
+cp res/riched20.dll ~/.wine/drive_c/windows/system32/
+cp res/wqy-microhei.ttc ~/.wine/drive_c/windows/Fonts/
 wine regedit # Please import res/chn_fonts.reg manually.
 ```
 
