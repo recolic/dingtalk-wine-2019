@@ -11,6 +11,7 @@
 ```bash
 sudo pacman -S libwbclient samba lib32-curl
 pakku -S multilib/lib32-gnutls multilib/lib32-libcurl-gnutls
+winetricks msftedit
 ```
 
 然后你需要手动安装riched20.dll和字体。我这里的WINEPREFIX为`~/.wine`，请更改为适合你的路径。
